@@ -15,7 +15,7 @@ class Router{
     $action = strtolower($action_name)."Action";
 
     if(!method_exists($controller,$action))
-      throw new Exception\ControllerNotFound("L'action ".$action_name." est introuvable dans le controller ".$controller_name);
+      throw new Exception\ActionNotFound("L'action ".$action_name." est introuvable dans le controller ".$controller_name);
     
     return [$controller, $action];
   }

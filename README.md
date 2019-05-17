@@ -1,5 +1,5 @@
-Jeu des 36 erreurs
-==================
+Jeu des 36 erreurs (Grégoire MASSE)
+===================================
 
 Le code de ce repository contient de nombreuses erreurs à tous les niveaux.  
 À vous de les débusquer et de les corriger !

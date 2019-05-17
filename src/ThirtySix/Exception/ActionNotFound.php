@@ -1,6 +1,6 @@
 <?php
 
-namespace ThirtySix;
+namespace ThirtySix\Exception;
 
 class ActionNotFound extends Exception{
 
